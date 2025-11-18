@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.log
+novaais_core/token.json
+novaais_core/authorized_token.json
+novaais_core/credentials.json
+.local_settings.py
+.DS_Store
+uvicorn.log
+gmail_poller.log
+local_novaais_logs.jsonl
+transactions.db

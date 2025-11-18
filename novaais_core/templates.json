@@ -1,0 +1,498 @@
+{
+  "Forward to Human": {
+    "language": "en",
+    "triggers": [
+      "NN_AGENT",
+      "i want to talk to support",
+      "i need an agent",
+      "talk to a human",
+      "speak to someone",
+      "i need human assistance",
+      "escalate my request",
+      "connect me to a representative",
+      "speak to a human",
+      "customer support",
+      "human agent",
+      "customer care",
+      "connect me to an agent",
+      "need to speak to someone",
+      "urgent assistance",
+      "want to talk to a person",
+      "real person",
+      "live agent",
+      "support team",
+      "someone help me",
+      "i need a human",
+      "transfer me",
+      "can i speak to a supervisor",
+      "get me to a person",
+      "urgent",
+      "emergency",
+      "get me to support",
+      "i need a manager",
+      "speak to management"
+    ],
+    "response": "__FORWARD_TO_HUMAN__"
+  },
+  "Anfrage an Menschen weiterleiten": {
+    "language": "de",
+    "triggers": [
+      "NN_AGENT",
+      "ich möchte mit dem support sprechen",
+      "ich brauche einen mitarbeiter",
+      "mit einem menschen sprechen",
+      "mit jemandem sprechen",
+      "ich brauche menschliche hilfe",
+      "bitte leiten sie meine anfrage weiter",
+      "verbinden sie mich mit einem mitarbeiter",
+      "kundenservice",
+      "menschlicher mitarbeiter",
+      "kundenbetreuung",
+      "mit einem agenten verbinden",
+      "brauche hilfe",
+      "dringende unterstützung",
+      "möchte mit einer person sprechen",
+      "echter mensch",
+      "live-agent",
+      "support-team",
+      "jemand soll mir helfen",
+      "ich brauche einen menschen",
+      "verbinden sie mich",
+      "kann ich mit einem vorgesetzten sprechen",
+      "notfall",
+      "dringend",
+      "leiten sie mich an den support weiter",
+      "ich brauche einen vorgesetzten",
+      "mit der geschäftsleitung sprechen"
+    ],
+    "response": "__FORWARD_TO_TO_HUMAN__"
+  },
+  "General Inquiry / Contact Info": {
+    "language": "en",
+    "triggers": [
+      "how can i contact novalnet",
+      "contact novalnet",
+      "best way to contact",
+      "how do i reach",
+      "contact you",
+      "get in touch",
+      "reach out to novalnet",
+      "contact support",
+      "how to reach novalnet",
+      "novalnet contact details",
+      "customer service contact",
+      "novalnet phone number",
+      "email for novalnet",
+      "support email novalnet",
+      "contact novalnet team",
+      "novalnet helpline",
+      "novalnet customer support",
+      "novalnet office number",
+      "novalnet support phone",
+      "how do i contact support",
+      "novalnet email address",
+      "how to get support from novalnet"
+    ],
+    "response": "You can reach Novalnet via email at support@novalnet.de. For urgent matters, we recommend contacting your merchant directly. If you need further assistance, feel free to reply to this message — we’re happy to help."
+  },
+  "Forwarded Request from Partner / Merchant": {
+    "language": "en",
+    "triggers": [
+      "please check request from customer",
+      "forwarded request",
+      "request from merchant",
+      "partner request",
+      "customer forwarded",
+      "please review forwarded",
+      "merchant forwarded request",
+      "forwarded customer inquiry",
+      "forward request from partner",
+      "request forwarded by merchant"
+    ],
+    "response": "We have received the forwarded request and will review the details carefully. Our team will get back to you as soon as possible."
+  },
+  "General Payment Instructions": {
+    "language": "en",
+    "triggers": [
+      "how do i make the payment",
+      "where should i pay",
+      "payment instructions",
+      "how to pay",
+      "payment details",
+      "pay invoice",
+      "payment method",
+      "pay amount due",
+      "payment process",
+      "how to complete payment",
+      "payment options",
+      "payment information",
+      "paying invoice",
+      "invoice payment process",
+      "make payment"
+    ],
+    "response": "Thank you for your message. You can find the payment details and due date in the payment reminder or invoice we sent. If you haven’t received it or need further assistance, please let us know — we’re here to help."
+  },
+  "Confirmation of Received Email / In Progress": {
+    "language": "en",
+    "triggers": [
+      "just checking if you got my email",
+      "what's the status",
+      "any update",
+      "status of my request",
+      "have you received",
+      "checking status",
+      "progress update",
+      "follow up on my request",
+      "status update please",
+      "update on my inquiry"
+    ],
+    "response": "We have received your request and it’s currently being reviewed by our team. We’ll get back to you as soon as possible. Thank you for your patience."
+  },
+  "Duplicate Inquiry Already Answered": {
+    "language": "en",
+    "triggers": [
+      "follow-up",
+      "already answered",
+      "asked already",
+      "duplicate inquiry",
+      "asked before",
+      "previous reply",
+      "answered question",
+      "already responded",
+      "repeated question",
+      "answered previously"
+    ],
+    "response": "We have already responded to your inquiry on [dd.mm.yyyy]. If there’s anything further we can clarify, please feel free to reply to this message. We’re happy to assist."
+  },
+  "Allgemeine Anfrage / Kontaktinformation": {
+    "language": "de",
+    "triggers": [
+      "wie kann ich novalnet kontaktieren",
+      "kontaktieren sie novalnet",
+      "wie erreiche ich novalnet",
+      "kontakt zu novalnet",
+      "support kontaktieren",
+      "novalnet kundenservice",
+      "kontakt information",
+      "kontakt details",
+      "kontakt support",
+      "wie kann ich den support erreichen",
+      "novalnet kontakt",
+      "novalnet hotline",
+      "novalnet telefonnummer",
+      "novalnet email adresse",
+      "wie kontaktiere ich novalnet",
+      "kontaktieren novalnet team",
+      "kundendienst novalnet",
+      "novalnet telefon kontakt",
+      "wie erreiche ich den kundenservice",
+      "support telefonnummer novalnet",
+      "beste weg zu kontaktieren",
+      "kontakt moeglichkeit",
+      "erreichen sie novalnet"
+    ],
+    "response": "Sie können Novalnet per E-Mail unter support@novalnet.de erreichen. Für dringende Angelegenheiten wenden Sie sich bitte direkt an Ihren Händler. Sollten Sie weitere Unterstützung benötigen, antworten Sie gerne auf diese Nachricht. Wir helfen Ihnen jederzeit gerne weiter."
+  },
+  "Weitergeleitete Anfrage von Partner / Händler": {
+    "language": "de",
+    "triggers": [
+      "bitte prüfen sie anfrage vom kunden",
+      "weitergeleitete anfrage",
+      "anfrage vom händler",
+      "partneranfrage",
+      "kunde weitergeleitet",
+      "bitte prüfen weitergeleitet",
+      "merchant weitergeleitete anfrage",
+      "weitergeleitete kundenanfrage",
+      "anfrage weitergeleitet vom händler",
+      "bitte prüfen kundenanfrage",
+      "weiterleitung vom partner"
+    ],
+    "response": "Wir haben die weitergeleitete Anfrage erhalten und werden die Details sorgfältig prüfen. Unser Team wird sich schnellstmöglich bei Ihnen melden."
+  },
+  "Allgemeine Zahlungsanweisungen": {
+    "language": "de",
+    "triggers": [
+      "wie kann ich bezahlen",
+      "wo soll ich zahlen",
+      "zahlungsanweisungen",
+      "wie zahle ich",
+      "zahlungsdetails",
+      "rechnung bezahlen",
+      "zahlungsart",
+      "betrag bezahlen",
+      "zahlungsprozess",
+      "zahlung vornehmen",
+      "zahlung durchführen",
+      "zahlungsinformationen",
+      "rechnung zahlung",
+      "zahlungsmöglichkeiten",
+      "zahlungsmethode"
+    ],
+    "response": "Vielen Dank für Ihre Nachricht. Die Zahlungsdetails und das Fälligkeitsdatum finden Sie in der Zahlungsaufforderung oder Rechnung, die wir Ihnen geschickt haben. Sollten Sie diese nicht erhalten haben oder weitere Unterstützung benötigen, informieren Sie uns bitte. Wir helfen Ihnen gerne weiter."
+  },
+  "Bestätigung des Erhalts der E-Mail / In Bearbeitung": {
+    "language": "de",
+    "triggers": [
+      "ich wollte nur nachfragen ob sie meine email erhalten haben",
+      "wie ist der status",
+      "gibt es updates",
+      "status meiner anfrage",
+      "haben sie erhalten",
+      "status prüfen",
+      "fortschrittsupdate",
+      "status update",
+      "anfrage status",
+      "status nachfrage"
+    ],
+    "response": "Wir haben Ihre Anfrage erhalten und diese wird derzeit von unserem Team geprüft. Wir melden uns so schnell wie möglich bei Ihnen. Vielen Dank für Ihre Geduld."
+  },
+  "Doppelte Anfrage Bereits Beantwortet": {
+    "language": "de",
+    "triggers": [
+      "nachfrage",
+      "bereits beantwortet",
+      "schon gefragt",
+      "doppelte anfrage",
+      "früher gefragt",
+      "vorherige antwort",
+      "beantwortete frage",
+      "bereits geantwortet",
+      "antwort schon erhalten",
+      "doppelte frage"
+    ],
+    "response": "Wir haben Ihre Anfrage bereits am [dd.mm.yyyy] beantwortet. Sollten Sie weitere Fragen haben, antworten Sie gerne auf diese Nachricht. Wir helfen Ihnen gerne weiter."
+        },
+      "Refund Request": {
+      "language": "en",
+      "triggers": [
+      "i want a refund",
+      "please refund my money",
+      "requesting a refund",
+      "money back please",
+      "i did not authorize this",
+      "unauthorized charge",
+      "cancel and refund",
+      "charge was a mistake",
+      "want to reverse transaction",
+      "how to get my money back",
+      "request a refund",
+      "refund my payment",
+      "i'd like a refund"
+],
+    "response": "We’re sorry to hear that you’d like a refund. Kindly provide the transaction ID or details of the charge so we can review it. If this was unauthorized, we’ll take the necessary steps immediately. Thank you for your cooperation."
+  },
+  "Unknown Charge / Not Recognized": {
+    "language": "en",
+    "triggers": [
+      "i see a charge i don't recognize",
+      "what is this charge",
+      "unauthorized transaction",
+      "i did not make this payment",
+      "charge appeared on my statement",
+      "unknown payment",
+      "suspicious transaction",
+      "i don't know what this is",
+      "why was i charged"
+    ],
+    "response": "Thank you for your message. Please share the transaction ID or any details you see on your bank statement (e.g. date, amount). We’ll investigate this charge and get back to you as soon as possible."
+  },
+  "Subscription Cancellation Request": {
+    "language": "en",
+    "triggers": [
+      "cancel my subscription",
+      "end my subscription",
+      "stop the service",
+      "terminate subscription",
+      "don't want to be charged again",
+      "cancel recurring payment",
+      "how to stop my subscription",
+      "unsubscribe me",
+      "i want to stop being billed"
+    ],
+    "response": "We understand you’d like to cancel your subscription. Kindly provide the transaction ID or email address linked to your subscription so we can proceed with the cancellation and confirm back to you."
+  },
+  "Invoice / Receipt Request": {
+    "language": "en",
+    "triggers": [
+      "can i get a receipt",
+      "please send me the invoice",
+      "need an invoice",
+      "can you email me the bill",
+      "requesting payment receipt",
+      "proof of payment",
+      "billing document",
+      "need invoice for my records"
+    ],
+    "response": "Thank you for reaching out. Please provide the transaction ID or any payment details you have, and we’ll send you a copy of the invoice or receipt as soon as possible."
+  },
+  "Rückerstattung anfordern": {
+    "language": "de",
+    "triggers": [
+      "ich möchte eine rückerstattung",
+      "bitte erstatten sie mir das geld",
+      "rückzahlung anfordern",
+      "geld zurück bitte",
+      "nicht autorisierte zahlung",
+      "zahlung war ein fehler",
+      "transaktion rückgängig machen",
+      "stornierung und rückerstattung"
+    ],
+    "response": "Es tut uns leid zu hören, dass Sie eine Rückerstattung wünschen. Bitte teilen Sie uns die Transaktionsnummer oder Details der Abbuchung mit, damit wir den Vorgang prüfen können. Vielen Dank für Ihre Mithilfe."
+  },
+  "Unbekannte Abbuchung / Nicht erkannt": {
+    "language": "de",
+    "triggers": [
+      "was ist diese abbuchung",
+      "ich kenne diese zahlung nicht",
+      "nicht autorisierte transaktion",
+      "unbekannte zahlung",
+      "zahlung erscheint auf meinem konto",
+      "verdächtige abbuchung",
+      "woher kommt diese belastung",
+      "warum wurde ich belastet"
+    ],
+    "response": "Vielen Dank für Ihre Nachricht. Bitte senden Sie uns die Transaktionsnummer oder Angaben zur Abbuchung (z. B. Datum, Betrag), damit wir die Angelegenheit prüfen können."
+  },
+  "Abo Kündigung": {
+    "language": "de",
+    "triggers": [
+      "bitte kündigen sie mein abo",
+      "abo beenden",
+      "dienst kündigen",
+      "keine weiteren abbuchungen",
+      "abo stoppen",
+      "zahlung einstellen",
+      "ich möchte kündigen",
+      "nicht mehr abonnieren"
+    ],
+    "response": "Gerne kümmern wir uns um Ihre Kündigung. Bitte teilen Sie uns die Transaktionsnummer oder die E-Mail-Adresse mit, mit der das Abonnement abgeschlossen wurde. Wir bestätigen Ihnen die Kündigung anschließend per E-Mail."
+  },
+  "Rechnung anfordern": {
+    "language": "de",
+    "triggers": [
+      "bitte senden sie mir die rechnung",
+      "ich benötige eine quittung",
+      "kann ich eine rechnung erhalten",
+      "zahlung nachweis",
+      "rechnung für meine unterlagen",
+      "rechnung per e-mail",
+      "dokument zur zahlung",
+      "rechnung anfordern"
+    ],
+    "response": "Vielen Dank für Ihre Anfrage. Bitte senden Sie uns die Transaktionsnummer oder weitere Zahlungsdetails, damit wir Ihnen die Rechnung schnellstmöglich zukommen lassen können."
+  },
+  "Chargeback Notification / Dispute": {
+    "language": "en",
+    "triggers": [
+      "i have disputed this charge",
+      "opened a chargeback",
+      "i contacted my bank",
+      "i filed a dispute",
+      "i raised a complaint with my card issuer"
+    ],
+    "response": "We acknowledge your message. If you’ve initiated a chargeback, we’ll coordinate with your bank during the resolution process. If you’d like to resolve this directly, please share your transaction ID so we can assist you faster."
+  },
+  "Payment Failed / Declined": {
+    "language": "en",
+    "triggers": [
+      "payment failed",
+      "my card was declined",
+      "couldn't complete the payment",
+      "transaction did not go through",
+      "payment error"
+    ],
+    "response": "Sorry to hear you had trouble with your payment. Please let us know the transaction attempt time or any error message you received, and we’ll look into the issue right away."
+  },
+  "Double Charge": {
+    "language": "en",
+    "triggers": [
+      "i was charged twice",
+      "duplicate payment",
+      "paid twice",
+      "charged two times",
+      "two payments made"
+    ],
+    "response": "Thanks for reaching out. If you believe you were charged twice, please share both transaction IDs or the dates of the charges. We’ll verify and issue a refund for the duplicate if confirmed."
+  },
+  "Update Personal or Billing Info": {
+    "language": "en",
+    "triggers": [
+      "i need to update my email",
+      "change my billing info",
+      "update credit card",
+      "change payment method",
+      "correct my details"
+    ],
+    "response": "We can help with updating your information. For security reasons, please provide the transaction ID and let us know the specific change you’d like to make. We’ll assist you promptly."
+  },
+  "Bestätigung erforderlich": {
+    "language": "de",
+    "triggers": [
+      "bitte bestätigen sie meine zahlung",
+      "ich brauche eine bestätigung",
+      "ist meine zahlung eingegangen",
+      "zahlung wurde durchgeführt",
+      "ich habe bezahlt"
+    ],
+    "response": "Vielen Dank für Ihre Nachricht. Bitte senden Sie uns die Transaktionsnummer oder die Zahlungsdetails, damit wir den Zahlungseingang für Sie überprüfen und bestätigen können."
+  },
+  "Doppelte Abbuchung": {
+    "language": "de",
+    "triggers": [
+      "ich wurde zweimal belastet",
+      "doppelte zahlung",
+      "zwei abbuchungen",
+      "zahlung doppelt erfolgt",
+      "zweimal bezahlt"
+    ],
+    "response": "Bitte entschuldigen Sie die Unannehmlichkeiten. Wenn Sie eine doppelte Zahlung feststellen, teilen Sie uns bitte beide Transaktionsnummern oder die Daten der Abbuchungen mit. Wir prüfen das umgehend und veranlassen ggf. eine Rückerstattung."
+  },
+  "Anmelde- oder Zugriffsprobleme": {
+    "language": "de",
+    "triggers": [
+      "ich kann mich nicht einloggen",
+      "zugriff verweigert",
+      "anmeldung schlägt fehl",
+      "passwort funktioniert nicht",
+      "hilfe beim einloggen"
+    ],
+    "response": "Es tut uns leid, dass Sie Probleme beim Einloggen haben. Bitte teilen Sie uns mit, bei welchem Dienst Sie sich anmelden wollten und welche Fehlermeldung Sie erhalten. Wir helfen Ihnen umgehend weiter."
+  },
+  "Allgemeine Anfrage": {
+    "language": "de",
+    "triggers": [
+      "ich habe eine frage",
+      "können sie mir helfen",
+      "bitte um hilfe",
+      "was bedeutet das",
+      "kontaktieren sie mich"
+    ],
+    "response": "Vielen Dank für Ihre Nachricht. Bitte teilen Sie uns mit, worum es bei Ihrer Anfrage geht. Wir helfen Ihnen gerne weiter."
+  },
+  "Transaction Details Request": {
+    "language": "en",
+    "triggers": [
+      "transaction details",
+      "please provide me with the transaction details",
+      "transaction id is",
+      "details for transaction",
+      "look up transaction",
+      "check transaction",
+      "transaction information",
+      "transaction history",
+      "payment details for"
+    ],
+    "response": "Dear,\n\nThank you for reaching out to us. Here are the details for your transaction:\n\n[TRANSACTION_DETAILS]\n\nIf you have any other questions or need further assistance, feel free to ask.\n\nBest regards,\nNovalnet Support"
+  },
+  "Anfrage Transaktionsdetails": {
+    "language": "de",
+    "triggers": [
+      "Transaktionsdetails",
+      "Transaktionsnummer",
+      "Zahlungsdetails",
+      "Zahlungsnummer"
+    ],
+    "response": "Sehr geehrte/r,\n\nVielen Dank für Ihre Anfrage. Hier sind die Details zu Ihrer Transaktion:\n\n[TRANSACTION_DETAILS]\n\nSollten Sie weitere Fragen haben oder Unterstützung benötigen, zögern Sie nicht, uns zu kontaktieren.\n\nMit freundlichen Grüßen,\nNovalnet Support"
+  }
+}

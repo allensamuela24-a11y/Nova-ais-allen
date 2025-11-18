@@ -1,0 +1,29 @@
+nohup: ignoring input
+INFO:     Started server process [4427]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+✅ Loaded templates.json from: /home/allensamuel_a24/novaais/novaais_core/templates.json
+Detected language: en
+    DEBUG: No clear Transaction ID found in body with refined patterns.
+⚠️ No template matched in language: en
+⚠️ LLM reply validation failed: Missing expected signature part ('Novalnet Support').
+📤 Preparing to send email to Deep Maheshwari <deepbm2611@gmail.com>. Intended Gmail thread: None
+⚠️ Logo file not found at Novalnet-Logo.png.
+    DEBUG: Email sent. Gmail API Thread ID: 19a95578711bcf76
+    DEBUG: Mapping bot's reply Message-ID '176344213234.4427.11880637636861853907@nova-ai.novalnet.de' to actual Gmail threadId '19a95578711bcf76'
+📊 Logged email action: gemini_reply to Deep Maheshwari <deepbm2611@gmail.com>
+✅ Email sent.
+INFO:     127.0.0.1:37912 - "POST /reply HTTP/1.1" 200 OK
+Detected language: en
+    DEBUG: TID found with prefix: TXN001
+🔍 Looking up transaction ID 'TXN001' for sender email 'Allen Samuel <allensamuel.a23@gmail.com>' (case-insensitive)...
+❌ No match found for transaction TXN001 with email Allen Samuel <allensamuel.a23@gmail.com>.
+❌ Transaction ID mismatch or not found for this email.
+📤 Preparing to send email to Allen Samuel <allensamuel.a23@gmail.com>. Intended Gmail thread: None
+⚠️ Logo file not found at Novalnet-Logo.png.
+    DEBUG: Email sent. Gmail API Thread ID: 19a9557f5f92ed5d
+    DEBUG: Mapping bot's reply Message-ID '176344216078.4427.6618474480542890740@nova-ai.novalnet.de' to actual Gmail threadId '19a9557f5f92ed5d'
+📊 Logged email action: template to Allen Samuel <allensamuel.a23@gmail.com>
+✅ Email sent.
+INFO:     127.0.0.1:43238 - "POST /reply HTTP/1.1" 200 OK
