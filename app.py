@@ -1,3 +1,17 @@
+# --- BEGIN: write GMAIL_TOKEN_JSON env var to novaais_core/token.json if present ---
+import os
+from pathlib import Path
+try:
+    token_json = os.environ.get("GMAIL_TOKEN_JSON")
+    if token_json:
+        tok_path = Path("novaais_core") / "token.json"
+        tok_path.parent.mkdir(parents=True, exist_ok=True)
+        # overwrite intentionally so remote secret updates are picked up on deploy
+        tok_path.write_text(token_json)
+except Exception:
+    # Don't crash app startup if something goes wrong here; log if available
+    pass
+# --- END snippet ---
 # app.py
 # Nova AIS – FINAL Production Backend (Cloud Run Ready)
 # Copy-paste this file to replace your existing app.py
